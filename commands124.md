@@ -73,5 +73,8 @@ This document contains essential commands for the RH124
 * `journalctl -f`: Follow new log entries in real-time.
 * `journalctl -n 50`: Show only the last 50 log entries.
 * `journalctl -p err`: Filter logs to show only errors and critical issues.
----
-*Reference for RHEL 9 Administration.*
+
+## 10. Archiving and Compression (tar)
+* `tar -czvf archive.tar.gz /path/to/dir`: Create (`c`) a gzip-compressed (`z`) archive, verbosely (`v`), to a file (`f`).
+* `tar -xzvf archive.tar.gz`: Extract (`x`) the contents of a compressed archive.
+* `tar -tf archive.tar.gz`: List (`t`) the contents of an archive without extracting it.
