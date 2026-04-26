@@ -67,5 +67,11 @@ This document contains essential commands for the RH124
 - `dnf update`: Update all installed packages.
 - `dnf list installed`: List all software on the system.
 
+## 9. Log Analysis (journalctl)
+* `journalctl`: View all system logs collected by systemd.
+* `journalctl -u sshd`: View logs specifically for the SSH service.
+* `journalctl -f`: Follow new log entries in real-time.
+* `journalctl -n 50`: Show only the last 50 log entries.
+* `journalctl -p err`: Filter logs to show only errors and critical issues.
 ---
 *Reference for RHEL 9 Administration.*
