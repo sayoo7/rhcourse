@@ -40,7 +40,7 @@ This document contains essential commands for the RH124
 - `groupadd <groupname>`: Create a new group.
 
 ## 5. Permissions and Ownership
-- `chmod <mode> <file>`: Change file permissions (e.g., `chmod 755 file`)(read - 4, write - 2, execute - 1)
+- `chmod <mode> <file>`: Change file permissions (e.g., `chmod 755 file`, read - 4, write - 2, execute - 1, owner - all, group r+x, others r+x)
 - `chown <user>:<group> <file>`: Change owner and group ownership.
 - `chgrp <group> <file>`: Change group ownership.
 
