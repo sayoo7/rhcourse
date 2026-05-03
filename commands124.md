@@ -30,6 +30,17 @@ This document contains essential commands for the RH124
   - `Esc`: Command mode.
   - `:wq`: Save and quit.
   - `:q!`: Quit without saving.
+  - `u`: Undo last change.
+  - `gg`: Jump to the top of the file.
+  - `G`: Jump to the bottom of the file.
+  - `10G`: Jump to line 10.
+  - `0`: Jump to the beginning of the line.
+  - `$`: Jump to the end of the line.
+  - `V`: Visual line mode (select entire lines).
+  - `y`: Yank (copy) selected text.
+  - `yy`: Yank (copy) the current line.
+  - `p`: Paste after the cursor.
+  - `dd`: Delete (cut) the current line.
 
 ## 4. User and Group Management
 - `id`: Display current user identity (UID, GID).
