@@ -7,7 +7,7 @@ RHEL lab enviroment used for completing RH134 course:
 | Machine name | IP address | Role |
 | :--- | :--- | :--- |
 | bastion.lab.example.com | 172.25.251.254 | Gateway system to connect the student private network to the classroom server (must always be running) |
-| classroom.example.com | 172.25.254.254 | Server that hosts the required classroom materials |
+| classroom.example.com | 172.25.252.254 | Server that hosts the required classroom materials |
 | workstation.lab.example.com | 172.25.250.9 | Graphical workstation for student use |
 | servera.lab.example.com | 172.25.250.10 | Managed server "A" |
 | serverb.lab.example.com | 172.25.250.11 | Managed server "B" |
