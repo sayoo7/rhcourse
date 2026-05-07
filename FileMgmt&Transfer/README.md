@@ -28,4 +28,4 @@
 * **SCP (Simple Copy):** (not advised to use because of security breach danger)
     `scp file.tar.gz user@remote:/path/to/destination`
 * **SFTP (Interactive):**
-    `sftp user@remote` -> Use `put` to upload or `get` to download.
+    `sftp user@remote` ->  `put` to upload or `get` to download.
