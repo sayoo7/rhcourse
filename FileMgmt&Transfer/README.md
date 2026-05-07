@@ -1,6 +1,5 @@
 ## 1. Archiving with `tar`
 
-### Core Commands
 * **Create:** `tar -czf backup.tar.gz /path/to/source`
     * `-c`: **C**reate a new archive.
     * `-z`: Filter through **g**zip (compression).
@@ -13,9 +12,6 @@
 
 
 ## 2. Synchronization with `rsync`
-*Efficiently syncing directory trees between systems.*
-
-### Key Syntax
 `rsync -avz [SOURCE] [DESTINATION]`
 * `-a`: **A**rchive mode (preserves permissions, symlinks, and timestamps).
 * `-v`: **V**erbose (shows what is happening).
