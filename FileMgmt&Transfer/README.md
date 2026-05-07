@@ -1,5 +1,4 @@
 ## 1. Archiving with `tar`
-*The "Tape Archiver" – used to bundle and compress files.*
 
 ### Core Commands
 * **Create:** `tar -czf backup.tar.gz /path/to/source`
