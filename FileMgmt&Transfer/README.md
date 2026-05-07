@@ -22,7 +22,6 @@
 * `-v`: **V**erbose (shows what is happening).
 * `-z`: **C**ompresses data during transfer (saves bandwidth).
 
-> **💡 Pro Tip on Slashes:**
 > * `/etc` -> Copies the **folder itself** (results in `/dest/etc/...`).
 > * `/etc/` -> Copies only the **contents** (results in `/dest/...`).
 
