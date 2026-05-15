@@ -1,6 +1,6 @@
 
 ## 1. Enforcement Modes
-*Always check what mode SELinux is in before troubleshooting.*
+*Check what mode SELinux is before troubleshooting*
 * **Verify current mode:** `getenforce`
 * **Change (Temporary):** `setenforce [MODE]`
     * `0`: Permissive (logs violations, does not block - good for debugging).
@@ -22,8 +22,6 @@
     * `-v`: Verbose (shows relabeling process).
 
 ## 3. SELinux Booleans
-*Built-in ON/OFF switches for common scenarios (like letting Apache read user home directories).*
-
 * **Search:** `getsebool -a | grep home`
     * `-a`: Lists all Booleans.
 * **Modify:** `setsebool -P httpd_enable_homedirs on`
