@@ -4,7 +4,7 @@ SOURCE="student@serverb:/etc/config"
 DEST="/configbackup/"
 
 if ! mkdir -p "$DEST"; then
-    logger -p user.err "BACKUP FAIL: Nie można utworzyć katalogu $DEST"
+    logger -p user.err "BACKUP FAIL: $DEST"
     exit 1
 fi
 # Sync using rsync
